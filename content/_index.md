@@ -7,3 +7,25 @@ Edit `/content/_index.md` to change what appears here. Delete `/content/_index.m
 if you don't want any content here.
 
 Head over to the [GitLab project](https://gitlab.com/pages/hugo) to get started.
+
+```toml
++++
+# Menu label
+title = "Getting started"
+
+# Hide this page from menu
+hidden = false
+
+# Prefix menu label with a text, an html...
+pre = ""
+
+# Suffix menu label with a text, an html...
+post = "👋"
+
+# Display this before the menu entry
+head = "<hr/>"
+
+# Keep this menu opened by default
+alwaysopen = true
+
++++
