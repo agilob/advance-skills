@@ -6,7 +6,7 @@ title = "Advance your skills"
 theme = "hugo-theme-docport"
 pygmentsCodeFences = true
 pygmentsStyle = "monokai"
-
+publishdir    = "public"
 
 defaultContentLanguageInSubdir= false
 enableMissingTranslationPlaceholders = false
