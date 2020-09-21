@@ -6,8 +6,9 @@ title = "Advance your skills"
 canonifyurls  = true
 
 DefaultContentLanguage = "en"
-theme = "beautifulhugo"
+theme = "hugo-theme-docport"
 metaDataFormat = "yaml"
+pygmentsStyle = "monokai"
 pygmentsUseClasses = true
 pygmentCodeFences = true
 #disqusShortname = "XXX"
