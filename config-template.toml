@@ -1,39 +1,36 @@
+title = "DocPort Documentation"
+
+theme = "hugo-theme-docport"
+
 baseURL = "https://example.com"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "DocPort Documentation"
-theme = "hugo-theme-docport"
 pygmentsCodeFences = true
 pygmentsStyle = "monokai"
-
 
 defaultContentLanguageInSubdir= false
 enableMissingTranslationPlaceholders = false
 
+# googleanalytics = "UA-123-45"
 
-# [Languages]
-# [Languages.en]
-# title = "Documentation for Hugo docport"
-# weight = 1
-# languageName = "English"
-#
-# [Languages.fr]
-# title = "Documentation du thème docport"
-# weight = 2
-# languageName = "Français"
+# Keep this as is
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
 
+# Site params
 [params]
 ordersectionsby = "weight" # ordersectionsby = "title"
-color_main = "#737373"
+#color_main = "#737373"
 #color_second = "#b30000"
 disableSearch = false # default is false
 disableNavChevron = false # set true to hide next/prev chevron, default is false
 menushortcutsnewtab = false # set true to open shortcuts links to a new tab/window
 
 #editURL = "https://github.com/vjeantet/hugo-theme-docport/edit/master/exampleSite/content/"
-editWithNetlifyCMSURL = "admin/#/collections/pages/entries/"
 enableGitInfo = true
+
+
 
 [mediaTypes]
   [mediaTypes."application/netlifyconfig"]
@@ -45,9 +42,6 @@ mediaType = "application/netlifyconfig"
 isPlainText = true
 isHTML = false
 notAlternative = true
-
-[outputs]
-home = [ "HTML", "RSS", "JSON"]
 
 [markup.goldmark.renderer]
 unsafe = true

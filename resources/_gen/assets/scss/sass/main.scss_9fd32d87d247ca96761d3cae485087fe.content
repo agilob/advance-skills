@@ -9,14 +9,14 @@ body:not(.render_raw) {
     text-decoration: none;
     background-color: transparent; }
   body:not(.render_raw) header {
-    background-color: #303030;
+    background-color: #333333;
     border-bottom: 2px solid gray;
     box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.1), 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
     justify-content: space-between;
     align-items: stretch;
-    color: #e3e3e3; }
+    color: #e6e6e6; }
     body:not(.render_raw) header a {
-      color: #cfcfcf; }
+      color: #cccccc; }
     body:not(.render_raw) header > div {
       display: flex;
       flex-direction: row;
@@ -42,7 +42,7 @@ body:not(.render_raw) {
         body:not(.render_raw) header nav.shortcuts li .fa {
           margin-right: 0.5rem; }
         body:not(.render_raw) header nav.shortcuts li a {
-          color: #d9d9d9;
+          color: #d6d6d6;
           padding: 0 1rem;
           font-weight: bold;
           font-size: 90%; }
@@ -68,8 +68,8 @@ body:not(.render_raw) {
           letter-spacing: -1px;
           display: block;
           margin-bottom: 14px;
-          border-bottom: 1px dotted #969696;
-          color: #303030;
+          border-bottom: 1px dotted #999999;
+          color: #333333;
           font-variant: small-caps; }
         body:not(.render_raw) article section.right-menu > div nav > ul {
           padding: 0px 0px 0px 0px;
@@ -77,7 +77,7 @@ body:not(.render_raw) {
           body:not(.render_raw) article section.right-menu > div nav > ul ul {
             padding: 0px 0px 0px 14px;
             margin: 0px 0px 0px 0px;
-            border-left: 1px solid #e3e3e3; }
+            border-left: 1px solid #e6e6e6; }
             body:not(.render_raw) article section.right-menu > div nav > ul ul li {
               font-size: 90%; }
         body:not(.render_raw) article section.right-menu > div ul {
@@ -92,11 +92,11 @@ body:not(.render_raw) {
       body:not(.render_raw) article section.right-menu .Actions {
         font-size: 75%; }
   body:not(.render_raw) footer {
-    background-color: #303030;
-    color: #cfcfcf;
+    background-color: #333333;
+    color: #cccccc;
     padding: 3rem; }
     body:not(.render_raw) footer a {
-      color: #cfcfcf; }
+      color: #cccccc; }
 
 article section.page {
   background-color: inherit; }
@@ -121,7 +121,7 @@ article section.page {
           content: "⊸"; }
         article section.page #breadcrumb ol li a {
           color: black;
-          border-bottom: 1px dotted #707070;
+          border-bottom: 1px dotted #737373;
           padding-bottom: 4px;
           padding-right: 0px; }
         article section.page #breadcrumb ol li.active:after {
@@ -151,29 +151,29 @@ article section.page {
       min-width: 50px; }
       article section.page nav.subpages li a {
         font-size: 90%;
-        color: #5c38a8; }
+        color: #ad3a3a; }
       article section.page nav.subpages li:not(:first-child):before {
         display: inline-block;
         margin-left: 0.4em;
         padding-right: .4rem;
-        color: #644f92;
+        color: #965151;
         content: "|"; }
       article section.page nav.subpages li.active {
         font-weight: bold; }
     article section.page nav.subpages li:first-child:before {
       content: "└ ";
-      color: #644f92; }
+      color: #965151; }
   article section.page div.jump-to-section {
     font-size: smaller;
-    color: #303030; }
+    color: #333333; }
     article section.page div.jump-to-section ul li a {
-      color: #60439d; }
+      color: #a14545; }
     article section.page div.jump-to-section nav {
       background-color: white; }
   article section.page div.chevrons {
     margin-top: 3rem;
-    border-top: 1px solid #e3e3e3;
-    border-bottom: 1px solid #e3e3e3;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
     padding: 1rem 0rem;
     display: flex;
     flex-direction: row;
@@ -208,7 +208,7 @@ article section.page {
   article section.page h1:first-of-type {
     font-size: 2.6rem;
     margin-top: 1.5rem !important;
-    color: #303030;
+    color: #333333;
     margin-bottom: 0px;
     line-height: 1.05;
     letter-spacing: -.05em;
@@ -219,7 +219,7 @@ article section.page {
       article section.page h1:first-of-type span:before {
         padding-left: .75rem;
         padding-right: .75rem;
-        color: #303030;
+        color: #333333;
         content: "⊷"; }
 
 article section.page div.content {
@@ -230,11 +230,11 @@ article section.page div.content {
     top: -7rem;
     visibility: hidden; }
   article section.page div.content a {
-    color: #4b0bd5;
+    color: #db0c0c;
     font-weight: 500;
     text-decoration: underline; }
   article section.page div.content h1 {
-    color: #4a4a4a;
+    color: #4d4d4d;
     font-size: 30px;
     font-variant-ligatures: none;
     font-weight: 700;
