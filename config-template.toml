@@ -68,11 +68,6 @@ url = "https://github.com/vjeantet/hugo-theme-docport"
 weight = 10
 
 [[menu.shortcuts]]
-name = "Download"
-url = "https://github.com/vjeantet/hugo-theme-docport/archive/master.zip"
-weight = 11
-
-[[menu.shortcuts]]
 name = "Hugo Documentation"
 identifier = "hugodoc"
 url = "https://gohugo.io/"

@@ -29,13 +29,23 @@ Learning road map for Java
 - private
 - package private
 
-### Loops
+### Flow control
+#### Loops
 - For loop
   - For-each loop
   - For each with var
 - While loop
- - Infinite while loop
 - Do-while loop
+- `continue` keyword
+
+#### Conditional statements
+- if statement
+  - else if
+  - else
+- switch
+  - break
+  - switch statement with fallthrough
+  - default
 
 ### Primitive data types
 - String
@@ -43,9 +53,16 @@ Learning road map for Java
 - boolean
 - double, float
 - char, byte
+- Boxing and unboxing
+  - Autoboxing
+  - Experiment with performance cost
+
+### Collections
+- Fluent in HashMap and HashSet
 
 ## Intermediate
 ### Classes intermediate
+- Order of initialization in inheritance
 - Polymorphism
 - Generics
   - Subtypes
@@ -55,16 +72,46 @@ Learning road map for Java
   - Usage of JVM-guaranteed singularity
 - Use of sealed classes
 - Use of records
+- Pattern matching
+
+### Understanding and using Object concepts
+- Correct implementation of
+  - `hashCode` and `equals`
+- Understanding use of `hashCode` and `equals` in maps/sets
+  - and `compareTo`
+
+- Use of classes where equality by `equals` doesn't mean equality by `compareTo`
+  - eg. `BigDecimal`, find out more classes like BigDecimal yourself
+
+### Collections
+- Fluency in HashSet, TreeSet, IdentitySet, LinkedHashSet, EnumSet
+- Fluency in HashMap, TreeMap, IdentityMap, LinkedHashMap, EnumMap
+  - Use of 3rd party libraries with concept of MultiMap (`Key` -> `Value[]`)
+
+### Flow control
+- Fluency in Iterators
+#### Loops
+- Labeled loop
 
 ### Functional concepts
+- Stream
 - Function
   - BiFunction
 - Supplier
 - Consumer
   - BiConsumer
 - Lambda
+- Predicate
 
-## Concurrency
+### Modules
+- requires
+  - requires transitive
+- exports
+  - exports... to
+- uses, provides... with
+- open, opens, opens... to
+
+### Concurrency
 - `violate` keyword
 - `synchronized` keyword
 - locks
@@ -82,11 +129,26 @@ Learning road map for Java
     - `handle`
     - `exceptionally`
     - `get`
+- Knowledge where to apply ParallelStream
 
-## Advanced
-### Performance optimization
+## Expert
+### Classes intermediate
+- Order of initialization in inheritance
+  - with use of static fields
+  - with use of inner static blocks
+
+### Collections
+- Fluency in Queue [[1]](https://docs.oracle.com/javase/tutorial/collections/implementations/queue.html)
+- Fluency in Deque [[1]](https://docs.oracle.com/javase/tutorial/collections/implementations/deque.html)
+
+### Performance
+#### Optimization
 - JMH
 - VisualVM
 - garbage collection logs
 
-## Expert
+#### Performance tuning
+- Identifying and fixing hot spots
+  - Object caching?
+  - Efficient use of `Stream` and `InputStream`
+- GC-tuning
