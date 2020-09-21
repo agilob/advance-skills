@@ -1,9 +1,10 @@
 ---
 date: "2020-09-08T22:11:57.883Z"
 description: first page
-title: Advance your skills
-weight: 1
+title: How to use this Hugo site
+weight: 4
 ---
+
 [DocPort](https://github.com/vjeantet/hugo-theme-docport), a professional documentation theme built for Hugo. \
 It provides a simple navigation, automatic search engine, a high level of configuration and a bunch of shortcodes crafted for documentation (attachment, presentations, child pages, notice, alerts, diagrams...).
 
