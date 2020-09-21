@@ -1,5 +1,5 @@
 ---
-description: ""
+description: "TODO: "
 title: SQL
 weight: 1
 ---

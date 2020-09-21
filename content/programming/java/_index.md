@@ -1,5 +1,5 @@
 ---
-description: ""
+description: "Java is a set of computer software and specifications developed by James Gosling at Sun Microsystems"
 title: Java
 weight: 1
 ---

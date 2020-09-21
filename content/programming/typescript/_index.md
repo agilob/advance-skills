@@ -1,5 +1,5 @@
 ---
-description: ""
+description: "TODO: "
 title: TypeScript
 weight: 1
 ---
