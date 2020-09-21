@@ -13,11 +13,9 @@ Learning road map for Flutter
   - Code reuse
   - Code style
 
-### Dev tools
-- VSC + Dart code or Android Studio
-  - Keyboard shortcuts
-
-### Basics Widgets
+### Widgets
+- Material Widgets
+- Scaffolding
 
 ### Design patterns
 - Observer
@@ -25,6 +23,44 @@ Learning road map for Flutter
 - Builder
 - Composite
 
+### Persistance
+- Serializer
+- Local storage
+
+- ### Dev tools
+- VSC + Dart code or Android Studio
+  - Keyboard shortcuts
+
 ## Intermediate
 
+### Widgets
+- Cupertino Design
+- Mobile HIG
+- Overlay
+
+### Design patterns
+- BLoC
+- DI
+- Builder
+- State
+
+### Persistance
+- Serializer
+- Local storage
+- Firebase
+- SQLite
+  - Moor
+
+### Architectural concepts
+- Redux
+- MVVM
+- MVC
+- Lifting State
+
+### Dev tools
+- DartPad
+- Contributing on StackOverflow
+
 ## Expert
+### Dev tools
+- [Observatory](https://dart-lang.github.io/observatory/)
