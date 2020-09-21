@@ -2,7 +2,7 @@ baseurl = "https://pages.gitlab.io/hugo/"
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
-title = "Beautiful Hugo"
+title = "Advance your skills"
 canonifyurls  = true
 
 DefaultContentLanguage = "en"
@@ -34,7 +34,7 @@ pygmentCodeFences = true
 #  desc = "Hexagon"
 
 [Author]
-  name = "Some Person"
+  name = "agilob"
   email = "youremail@domain.com"
   facebook = "username"
   googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
