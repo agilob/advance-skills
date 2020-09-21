@@ -62,5 +62,14 @@ Learning road map for Flutter
 - Contributing on StackOverflow
 
 ## Expert
+
 ### Dev tools
 - [Observatory](https://dart-lang.github.io/observatory/)
+  - Profiling
+  - Leaks
+    - Allocation
+  - Performance
+
+### Architecture
+- [Flutter's rendering pipeline](https://www.youtube.com/watch?v=UUfXWzp0-DU)
+- [Flutter Internals](https://www.flutterinternals.org/)
