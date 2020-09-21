@@ -84,5 +84,9 @@ Here about Java
     - `get`
 
 ## Advanced
+### Performance optimization
+- JMH
+- VisualVM
+- garbage collection logs
 
 ## Expert
