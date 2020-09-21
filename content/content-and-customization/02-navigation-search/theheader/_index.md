@@ -43,7 +43,7 @@ If you want to add a link to a page or an external site to this menu, add it in 
 
 ## Overide header content
 
-Create a `_layout/header/_index.md` page in content root folder. 
+Create a `_layout/header/_index.md` page in content root folder.
 Its content is what you get in the header (site shortscurs remains)
 
 ```bash

@@ -1,7 +1,7 @@
 ---
 date: "2020-09-08T22:11:57.883Z"
 description: first page
-title: DocPort Theme for Hugo
+title: Advance your skills
 weight: 1
 ---
 [DocPort](https://github.com/vjeantet/hugo-theme-docport), a professional documentation theme built for Hugo. \

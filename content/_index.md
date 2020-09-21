@@ -1,31 +1,11 @@
-## Front Page Content
+## What is this about?
 
-This website is powered by [GitLab Pages](https://about.gitlab.com/features/pages/)
-/ [Hugo](https://gohugo.io) and can be built in under 1 minute.
-Literally. It uses the `beautifulhugo` theme which supports content on your front page.
-Edit `/content/_index.md` to change what appears here. Delete `/content/_index.md`
-if you don't want any content here.
+This list tells you about unknown unknowns to let you progress in your skillset.
 
-Head over to the [GitLab project](https://gitlab.com/pages/hugo) to get started.
+Have you learnt about a new concept?
 
-```toml
-+++
-# Menu label
-title = "Getting started"
+Don't know what to do next?
 
-# Hide this page from menu
-hidden = false
+You do not know what you do not know. Sometimes there is no one you can ask, no list of concepts. This wiki should help you progress in that topic.
 
-# Prefix menu label with a text, an html...
-pre = ""
-
-# Suffix menu label with a text, an html...
-post = "👋"
-
-# Display this before the menu entry
-head = "<hr/>"
-
-# Keep this menu opened by default
-alwaysopen = true
-
-+++
+Pick a skillsets from a category and see opinionated list of topics telling you how you can progress, what to learn next.

@@ -1,6 +1,7 @@
 ---
 description: ""
-hide: 
+alwaysopen: false
+hide:
   - toc
 title: Content and Customization
 weight: 30
