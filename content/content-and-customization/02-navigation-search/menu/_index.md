@@ -33,7 +33,7 @@ hidden = false
 pre = ""
 
 # Suffix menu label with a text, an html...
-post = "👋"
+post = ""
 
 # Display this before the menu entry
 head = "<hr/>"
@@ -46,7 +46,7 @@ alwaysopen = true
 
 
 
-## Add content before menu entries 
+## Add content before menu entries
 (red dashed rectangle in the screenshot)
 
 Create a `_index.md` page in `_layout/_sidepage-before` folder.
@@ -65,7 +65,7 @@ Create a `_index.md` page in `_layout/_sidepage-before` folder.
 
 {{%/alert%}}
 
-## Add content after menu entries 
+## Add content after menu entries
 (blue dashed rectangle in the screenshot)
 
 Create a `_index.md` page in `_layout/_sidepage-after` folder.
@@ -81,4 +81,3 @@ Create a `_index.md` page in `_layout/_sidepage-after` folder.
 
 ## Hide site menu
 Set `hide: nav` in your page's frontmatter, see [an example here]({{%relref "examples/page without sidebar and toc"%}})
-
