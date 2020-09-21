@@ -2,7 +2,7 @@
 date: "2020-09-08T22:11:57.883Z"
 description: first page
 title: How to use this Hugo site
-weight: 4
+weight: 10
 ---
 
 [DocPort](https://github.com/vjeantet/hugo-theme-docport), a professional documentation theme built for Hugo. \
