@@ -1,10 +1,10 @@
 ---
 description: ""
-title: TypeScript
+title: Flutter
 weight: 1
 ---
 
-Learning road map for TypeScript
+Learning road map for Flutter
 
 ## Basics
 ### Basics of Dart
