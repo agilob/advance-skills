@@ -60,6 +60,11 @@ Learning road map for Java
 ### Collections
 - Fluent in HashMap and HashSet
 
+
+### End notes
+Consider reading "Effective Java".
+
+
 ## Intermediate
 ### Classes intermediate
 - Order of initialization in inheritance
@@ -130,6 +135,9 @@ Learning road map for Java
     - `exceptionally`
     - `get`
 - Knowledge where to apply ParallelStream
+
+### End notes
+Consider preparing for OCP certification.
 
 ## Expert
 ### Classes intermediate
