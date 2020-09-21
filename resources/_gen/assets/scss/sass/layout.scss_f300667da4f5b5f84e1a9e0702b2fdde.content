@@ -111,12 +111,12 @@ body:not(.render_raw) {
     margin: 0 auto; }
 
 /* hideheader hidenav hidebreadcrumb hidetoc hidefooter */
-body:not(.render_raw).hideheader article {
+body.hideheader:not(.render_raw) article {
   padding-top: 0px; }
-  body:not(.render_raw).hideheader article aside {
+  body.hideheader:not(.render_raw) article aside {
     top: 0px;
     height: calc(100vh); }
-  body:not(.render_raw).hideheader article section.right-menu {
+  body.hideheader:not(.render_raw) article section.right-menu {
     top: 0px;
     max-height: calc(100vh); }
 
