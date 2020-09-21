@@ -4,7 +4,7 @@ title: Java
 weight: 1
 ---
 
-Here about Java
+Learning road map for Java
 
 ## Basics
 
