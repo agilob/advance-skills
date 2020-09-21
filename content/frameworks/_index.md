@@ -1,15 +1,15 @@
 ---
 alwaysopen: true
 date: "2020-08-20T16:42:11.812Z"
-description: Programming languages
+description: Frameworks
 head: <hr/>
 hide:
 - toc
 post: "&nbsp;\U0001F44B"
-title: Programming languages
+title: Frameworks
 weight: 2
 ---
 
-## Programming languages
+## Frameworks
 
 {{%children style="card" description="true"%}}
