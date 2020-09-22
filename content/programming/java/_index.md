@@ -126,14 +126,7 @@ Consider reading "Effective Java".
 - Executor
 - Future
   - CompletableFuture
-    - `supplyAsync`
-    - `thenApply`
-    - `allOf`
-    - `anyOf`
-    - `thenApplyAsync`
-    - `handle`
-    - `exceptionally`
-    - `get`
+    - `supplyAsync` `thenApply` `allOf` `anyOf` `thenApplyAsync` `handle` `exceptionally` `get`
 - Knowledge where to apply ParallelStream
 
 ### End notes
@@ -154,6 +147,7 @@ Consider preparing for OCP certification.
 - JMH
 - VisualVM
 - garbage collection logs
+- Use of JFR [[1]](https://bestsolution-at.github.io/jfr-doc/index.html)
 
 #### Performance tuning
 - Identifying and fixing hot spots
